@@ -1,1 +1,6 @@
-// 123
+$(document).ready(function () {
+    $('.sidenav').sidenav();
+});
+
+
+

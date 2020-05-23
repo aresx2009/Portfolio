@@ -1,1 +1,32 @@
-/* 123 */
+/* .sidenav {
+    justify-self: flex-end;
+ } */
+body{
+    background-color:whitesmoke;
+}
+.brand-logo{
+    height: 100%;
+    width: 200px;
+}
+.nav-wrapper{
+    background-color: black;
+}
+.right{
+    font-size: 20px;
+    color: wheat;
+    letter-spacing: 2px;
+    margin-right: 100px;
+}
+.aboutme img{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 0 40px;
+}
+.list{
+    margin-left: 60px;
+
+}
+.list li{
+    list-style-image:url(image/iconfinder_ruler_1291774.png);
+}
