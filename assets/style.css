@@ -1,32 +1,96 @@
-/* .sidenav {
-    justify-self: flex-end;
- } */
+/* aboutme */
 body{
     background-color:whitesmoke;
 }
 .brand-logo{
     height: 100%;
     width: 200px;
+    position: unset;
 }
 .nav-wrapper{
     background-color: black;
 }
-.right{
+.navl{
     font-size: 20px;
     color: wheat;
     letter-spacing: 2px;
-    margin-right: 100px;
+    margin: 0 8px;
+}
+.aboutme{
+    margin-left: 10%;
 }
 .aboutme img{
     width: 200px;
     height: 200px;
-    float: left;
-    margin: 0 40px;
+    position: flex;
+    margin-left: 10%;
+}
+#abt{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10%;
+    font-size: 20px;
 }
 .list{
     margin-left: 60px;
-
 }
 .list li{
     list-style-image:url(image/iconfinder_ruler_1291774.png);
 }
+
+/* Portfolio */
+.port{
+    font-size: 30px;
+    /* background-color: red; */
+}
+
+/* Contact me */
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Some padding */ 
+    border: 1px solid rgb(223, 129, 129); /* Gray border */
+    border-radius: 4px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+  /* Style the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* When moving the mouse over the submit button, add a darker green color */
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+.container {
+    border-radius: 5px;
+    background-color: #666666;
+    padding: 20px;
+}
+
+/* footer */
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: -12px;
+    width: 100%;
+    background-color: black;
+    color: rgb(21, 13, 44);
+    text-align: center;
+    font-size: 16px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
