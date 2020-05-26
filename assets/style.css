@@ -16,6 +16,11 @@ body{
     letter-spacing: 2px;
     margin: 0 8px;
 }
+.navl:hover{
+    background-color: red;
+    transition: all 1s 0s ease;
+    color: black;
+}
 .aboutme{
     margin-left: 10%;
 }
@@ -27,7 +32,7 @@ body{
 }
 #abt{
     font-family: Arial, Helvetica, sans-serif;
-    margin-top: 10%;
+    margin-top: 5%;
     font-size: 20px;
 }
 .list{
@@ -35,6 +40,20 @@ body{
 }
 .list li{
     list-style-image:url(image/iconfinder_ruler_1291774.png);
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: blue;
+    animation: box1 10s 2s 2;
+    position: relative;
+}
+@keyframes box1{
+    0%{ border-radius: 50%;left:0px;}
+    100%{border-radius: 0%;left: 550px;}
+    from{background-color: blue;}
+    to{background-color: red;}
 }
 
 /* Portfolio */
@@ -92,5 +111,26 @@ input[type=text], select, textarea {
 @media only screen and (max-width: 600px) {
     body {
       background-color: lightblue;
+    }
+    .aboutme{
+        display: flex;
+    }
+    #abt{
+        /* display: flex; */
+        margin-top: 200px;
+    }
+    .box{
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: blue;
+        animation: box1 10s 2s 2;
+        margin-bottom: 100px;
+    }
+    @keyframes box1{
+        0%{ border-radius: 50%;}
+        100%{border-radius: 0%;}
+        from{background-color: blue;}
+        to{background-color: red;}
     }
   }
