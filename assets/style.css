@@ -1,6 +1,7 @@
 /* aboutme */
 body{
     background-color:whitesmoke;
+    margin-bottom: 200px;
 }
 .brand-logo{
     height: 100%;
@@ -77,11 +78,12 @@ body{
 /* Portfolio */
 .port{
     font-size: 26px;
+    margin-bottom: 100px;
     /* background-color: red; */
 }
 .port img{
-    width: 100px;
-    height: 100px;
+    width: 300px;
+    height: 200px;
     position: flex;
 }
 
